@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Projet javascript </title>
+		<meta charset="utf-12">
+		 <link rel="stylesheet" href="style_projet.css" type="text/css"/> 
+        <script src="projetjs.js"></script>
+	
+	</head>
+	<body>
+	         <div id="cadre">
+                 <h1> Si vous passez la souris sur les buttons ca changera la couleurs de ces derniers </h1>
+                 
+                 
+                 <h3 id="one">si vous double-cliquez sur ce button ca va afficher la multiplication de 12 </h3>
+			         <input type="button" id="button1" onmouseover="showselection(this);"  onmouseout="resetselection(this);"  ondblclick="multi();" value="dblclick" />
+                
+                 <h3 id="two">si vous cliquez sur ce button ca va afficher un message </h3>
+                 <input type="button" id="button2" onmouseover="showselection(this);"  onmouseout="resetselection(this);"  onclick="change();" value="click" />
+                 
+                 <h3 id="three">si vous cliquez sur ce button ca va changer ma couleur </h3>
+                 <input type="button" id="button3" onmouseover="showselection(this);"  onmouseout="resetselection(this);"  onclick="madd();" value="changer" />
+                 </br>
+                 </br>
+                 Mes matiéres sont:
+                 
+                        <ul id="liste"> 
+                     
+                        <li>Francais</li>
+                        <li>Anglais</li>
+                        <li>pages web interactives</li>
+                        <input type="button" id="bot" onmouseover="showselection(this);"  onmouseout="resetselection(this);"  onclick="matiéres();" value="Afficher tout" />
+                        </ul>
+                                </br>
+                                <div  id="newtext" value="cliquez (s) pour changer mon style"> </div>
+
+                            </br>
+                            </br>
+En fait j'ai oublié une matiére, mais c'est pas trop tard on peut l'ajouter encore en cliquant <input type="button" id="py" onmouseover="showselection(this);"  onmouseout="resetselection(this);"  onclick="oublie();" value="ICI" />
+
+
+
+                      
+                 
+			</div>
+	</body>
+</html>		

@@ -1,0 +1,16 @@
+
+body
+{ 
+	background-color: black;
+}
+#cadre
+{
+	margin: auto;
+	width: 60%;
+	background-color: grey;
+	height: 1500px;
+}
+#newtext
+{
+    text-align:center;
+}
